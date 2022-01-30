@@ -1,4 +1,4 @@
-# Web frontend for Wordle-Solver
+# Web-based UI for Wordle-Solver
 
 This is the web-based user interface for [Wordle-Solver](https://github.com/jason-chao/wordle-solver) built on vue.js.  A demo is available at [https://wordle-solver.jasontc.net/](https://wordle-solver.jasontc.net/)
 
