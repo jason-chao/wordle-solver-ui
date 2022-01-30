@@ -9,11 +9,9 @@ This is the web-based user interface for [Wordle-Solver](https://github.com/jaso
 npm install
 ```
 
-### Configures the backend URL
+### Configure the backend URL
 
-Set environment variable `VUE_APP_WORDLE_SOLVER_API_URL` to point to a backend that your desire.
-
-Create a file named `.env` in the project root.  Add `VUE_APP_WORDLE_SOLVER_API_URL=` followed by the URL of the backend.  See [here](https://cli.vuejs.org/guide/mode-and-env.html#modes) for the details.
+Set the environment variable `VUE_APP_WORDLE_SOLVER_API_URL` in `.env` to point to a backend that your desire.  See [here](https://cli.vuejs.org/guide/mode-and-env.html#modes) for the details about setting environment variables.
 
 ### Compiles and hot-reloads for development
 ```
