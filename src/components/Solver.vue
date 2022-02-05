@@ -147,6 +147,10 @@ export default {
             }
           }
         })
+        .catch(() => {
+          this.alertMessage =
+            "Sorry, the server is unreachable.  Please check your internet connection.";
+        })
         .finally(() => {
           this.isLoading = false;
         });
